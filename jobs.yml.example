@@ -1,0 +1,8 @@
+apps:
+  - script: "node dist/src/index.js"
+    name: 'node-express-starter'
+    max_memory_restart: '300M'
+    instances: 1
+    exec_mode: fork
+    env:
+      NODE_ENV: development
